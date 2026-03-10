@@ -80,6 +80,34 @@ Example business uses include:
 
 ---
 
+## Example Output
+
+Running the pipeline:
+
+`python -m pipeline.cli --in data/raw/sample.csv --out data/out/clean.csv`
+
+Produces cleaned output similar to:
+
+```text
+customer_id,email,amount,order_date
+1001,alice@example.com,125.00,2026-03-01
+1002,bob@example.com,89.50,2026-03-02
+1003,carol@example.com,200.00,2026-03-03
+1004,dave@example.com,49.99,2026-03-04
+```
+
+## Quick Start
+
+### Setup environment
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -e ".[dev]"
+```
+
+---
+
 ## How to use this repo
 
 ### Install dependencies
