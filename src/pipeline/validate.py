@@ -1,3 +1,16 @@
+"""
+File: validate.py
+
+Purpose:
+Validate incoming business data before transformation.
+
+Responsibilities:
+- confirm required columns are present
+- check for empty required fields
+- validate email formatting at a basic level
+- ensure numeric fields can be processed
+"""
+
 from __future__ import annotations
 
 REQUIRED_FIELDS = {"customer_id", "email", "amount", "order_date"}
