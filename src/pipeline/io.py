@@ -1,3 +1,15 @@
+"""
+File: io.py
+
+Purpose:
+Handle CSV file input and output for the data pipeline.
+
+Responsibilities:
+- read raw CSV input data
+- write cleaned output data
+- ensure output directories exist when needed
+"""
+
 from __future__ import annotations
 
 import csv
