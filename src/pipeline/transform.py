@@ -1,3 +1,15 @@
+"""
+File: transform.py
+
+Purpose:
+Normalize and transform raw business data into a cleaner format for downstream use.
+
+Responsibilities:
+- normalize email addresses
+- standardize numeric amounts
+- normalize order date formatting
+"""
+
 from __future__ import annotations
 
 from datetime import datetime
