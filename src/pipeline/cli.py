@@ -48,3 +48,7 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+from pipeline.logging_config import configure_logging
+
+configure_logging()
