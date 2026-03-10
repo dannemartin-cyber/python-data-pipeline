@@ -1,3 +1,15 @@
+"""
+File: cli.py
+
+Purpose:
+Provide a command-line interface for running the data pipeline.
+
+Responsibilities:
+- accept input and output file paths
+- execute the pipeline workflow
+- coordinate reading, validation, transformation, and output writing
+"""
+
 from __future__ import annotations
 
 import argparse
